@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="ciceroednilson.com.br.apppessoa.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/app_name"
+        app:showAsAction="never" />
+</menu>
+    C:\Users\Diogo\Desktop\Aulas-android\Agenda\app\src\main\res\layout\menu\menu_main.xml

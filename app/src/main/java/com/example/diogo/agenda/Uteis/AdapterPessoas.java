@@ -73,9 +73,9 @@ public class AdapterPessoas extends BaseAdapter {
         textViewNascimento.setText(pessoaModels.get(position).getDataNascimento());
 
         if(pessoaModels.get(position).getRegistroAtivo() == 1)
-            textViewRegsitroAtivo.setText("Registro Ativo:Sim");
+            textViewRegsitroAtivo.setText("Ativo:Sim");
         else
-            textViewRegsitroAtivo.setText("Registro Ativo:Não");
+            textViewRegsitroAtivo.setText("Ativo:Não");
 
 
         buttonExcluir.setOnClickListener(new View.OnClickListener() {
